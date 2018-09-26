@@ -67,9 +67,3 @@ repopick -t per-process-sdk-override
 
 # Styles
 repopick -t pie-styles -e 225583,225755
-cd frameworks/base
-git am -3 $TOP/0001-DNM-Temp-build-fix-for-pie-styles.patch
-cd $TOP
-
-# Advanced restart
-repopick -t pie-powermenu
