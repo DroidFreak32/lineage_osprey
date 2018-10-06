@@ -25,7 +25,7 @@ repopick 223067
 repopick 223413
 
 # android_external_tinycompress
-repopick 225762-225763 223008 223011;
+repopick 225762-225763 223008 223011 229489
 
 # android_hardware_interfaces
 repopick 224064
@@ -63,7 +63,8 @@ repopick -t pie-wlan-caf
 # android_hardware_qcom_fm
 repopick 226683-226743 223685 226744 226745 223678 223683 223684 226862 223686 223687 223692 223688 224246 224386
 
-repopick -t per-process-sdk-override
-
 # Styles
-repopick -t pie-styles #-e 225583,225755
+repopick -t pie-styles -e 225583,225755,230520
+
+# Sepolicy Legacy
+repopick 230229-230239 228608

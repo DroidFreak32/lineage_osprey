@@ -19,4 +19,8 @@
         <project path="packages/overlays/Lineage" name="LineageOS/android_packages_overlays_Lineage" />
 
         <project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" remote="github" revision="lineage-15.1" />
+
+        <remove-project name="platform/packages/apps/SettingsIntelligence" />
+        <project path="packages/apps/SettingsIntelligence" name="LineageOS/android_packages_apps_SettingsIntelligence" groups="pdk-fs" />
+
 </manifest>
