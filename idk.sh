@@ -19,7 +19,8 @@ repopick -c 30 -t lineagehw-hidl
 #repopick -c 30 -t trust-vendor-patch
 #repopick -c 30 -t pie-network-traffic
 #repopick -c 30 -t pie-camera2
-repopick -c 30 229612  226343 226615
+repopick -c 30 229612 226343 226615 227821 230787 226176
 repopick -c 30 -t pie-clock-customizations
+repopick -c 30 -t pie-expanded-desktop
 #Topic
 #pie-display-rotation
